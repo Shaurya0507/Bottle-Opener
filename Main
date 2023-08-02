@@ -1,1 +1,15 @@
-
+task main()
+{
+	bool dispense = false;
+	while true {
+		if (SensorValue(S4) < 30) {
+			if (!dispense){
+				
+			  dispense = true;
+		  }
+		}
+		else {
+			dispense = false;
+	  }
+  }
+} 
